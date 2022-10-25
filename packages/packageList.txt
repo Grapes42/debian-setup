@@ -1,0 +1,6 @@
+gnome-tweaks
+wget
+vlc
+gimp
+krita
+spotify-client

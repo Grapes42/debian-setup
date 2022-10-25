@@ -1,8 +1,10 @@
-alias la="ls -a"
+alias ls='ls --color -h --group-directories-first'
+alias la='ls -a --color -h --group-directories-first'
 alias vim="echo \"i love vim <3\" && vim"
 alias nano="echo \"no nano on my machine, vim is superior.\""
 alias mono_audio="pacmd load-module module-remap-sink sink_name=mono master=alsa_output.pci-0000_04_00.6.analog-stereo channels=2 channel_map=mono,mono"
 alias rs="cd && clear"
+alias py="python3"
 
 if [ -f ~/.bash_greeting ]; then
     cat ~/.bash_greeting
